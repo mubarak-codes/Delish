@@ -6,7 +6,7 @@ const HomePage = ()=>{
 
  return(
   <>
-   <section>
+   <section clasdName="bg-dark">
     <Hero />
     <Recipe />
    </section>
