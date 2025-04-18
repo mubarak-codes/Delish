@@ -7,7 +7,7 @@ const Hero = ()=>{
 
  return(
   <>
-   <section className="mt-5 pt-4 pt-sm-5 px-3 px-sm-4">
+   <section className=" px3 px4-sm mt17 text-yellow hover-bg-red50">
     Hero
    </section>
   </>
