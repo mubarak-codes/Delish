@@ -2,14 +2,17 @@ import {Route, createBrowserRouter, createRoutesFromElements, RouterProvider} fr
 import Layout1 from './layouts/Layout1';
 import HomePage from './pages/HomePage'
 import SearchPage from './pages/SearchPage'
+import {usePersistState} from '../external-library/mkHooks/LocalStorage.js'
+import Navbar from './components/Navbar'
 
 
 function App() {
 
+
  const router = createBrowserRouter(
   createRoutesFromElements(
-   <Route path="/" element={<Layout1 />} >
-    <Route index element={<HomePage />} />
+   <Route path="/" element={<Layout1  />} >
+    <Route index element={<HomePage  />} />
     <Route path="/search" element={<SearchPage />} />
 
    </Route>

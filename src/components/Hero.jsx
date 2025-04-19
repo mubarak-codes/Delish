@@ -1,14 +1,15 @@
-import {useNavigate} from 'react-router-dom'
+import {useNavigate, Link} from 'react-router-dom'
 
 
-const Hero = ()=>{
+const Hero = ({bg, text})=>{
  const navigate = useNavigate();
 
 
  return(
   <>
-   <section className=" px3 px4-sm mt17 text-yellow hover-bg-red50">
+   <section className={`${bg} ${text} px3 px4-sm mt17  hover-bg-red50`}>
     Hero
+    <Link to="#">hi</Link>
    </section>
   </>
  )
