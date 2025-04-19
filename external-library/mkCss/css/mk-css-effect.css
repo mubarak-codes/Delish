@@ -1,14 +1,7 @@
-.hover-bg-red:hover{background-color:#DC3546} .hover-bg-red50:hover{background-color: #DC35467D}.hover-bg-orange:hover{background-color:orange} .hover-bg-orange50:hover{background-color: #DC35467D}
-
-.hover-text-red:hover{color:#DC3546} .hover-text-red50:hover{color: #DC35467D}.hover-text-orange:hover{color:orange} .hover-text-orange50:hover{color: #DC35467D}
+.transit{transition : all.15s ease-in-out}
 
 
 
 
-.active-bg-red:active{background-color:#DC3546} .active-bg-red50:active{background-color: #DC35467D}.active-bg-orange:active{background-color:orange} .active-bg-orange50:active{background-color: #DC35467D}
-
-.active-text-red:active{color:#DC3546} .active-text-red50:active{color: #DC35467D}.active-text-orange:active{color:orange} .active-text-orange50:active{color: #DC35467D}
-
-
-
-
+ 
+.py1-sm{padding-block: 4px}.py2-sm{padding-block :8px}.py3-sm{padding-block: 12px}.py4-sm{padding-block:16px}.py5-sm{padding-block: 20px}.py6-sm{padding-block: 25px}.py7-sm{padding-block: 30px}.py8-sm{padding-block: 35px}.py9-sm{padding-block: 40px}.py10-sm{padding-block : 45px}.py11-sm{padding-block : 50px}.py12-sm{padding-block : 56px}.py13-sm{padding-block : 62px}.py14-sm{padding-block : 68px}.py15-sm{padding-block: 74px}.py16-sm{padding-block : 80px}.py17-sm{padding-block : 86px}.py18-sm{padding-block : 92px}.py19-sm{padding-block : 98px}.py20-sm{padding-block : 104px}

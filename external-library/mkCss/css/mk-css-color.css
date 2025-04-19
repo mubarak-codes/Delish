@@ -1,16 +1,45 @@
 .bg-brown{background-color:brown;}.bg-gold{background-color:#E5BF00}.bg-gold10{background-color:#E5BF0017}.bg-gold25{background-color:#E5BF0038}.bg-gold50{background-color:#E5BF0078}.bg-gold75{background-color:#E5BF00B8}.bg-purple{background-color:purple}.bg-purple10{background-color:#81007F1A}.bg-purple25{background-color:#81007F42}.bg-purple50{background-color:#81007F73}.bg-purple75{background-color:#81007FAB}
 
-.bg-orange{background-color:orange}.bg-orange10{background-color:#FEA6001F}.bg-orange25{background-color:#FEA60040}.bg-orange50{background-color:#FEA60078}.bg-orange75{background-color:#FEA6009E}.bg-cyan{background-color:cyan}
+.bg-orange{background-color:orange}.bg-orange10{background-color:#FEA6001F}.bg-orange25{background-color:#FEA60040}.bg-orange50{background-color:#FEA60078}.bg-orange75{background-color:#FEA6009E}.bg-cyan{background-color:#23EAEA }.bg-cyan10{background-color :#00FFFF1C}.bg-cyan25{background-color :#00FFFF40}.bg-cyan50{background-color :#00FFFF7D}.bg-cyan75{background-color :#00FFFFBA}
 
 .bg-indigo{background-color:indigo}.bg-indigo10{background-color:#4B00811C}.bg-indigo25{background-color:#4B008140}.bg-indigo50{background-color:#4B00817A}.bg-indigo75{background-color:#4B0081AD}.bg-trans{background-color:transparent}
 
 .bg-red{background-color:#DC3546}.bg-red10{background-color:#DC35461C}.bg-red25{background-color:#DC354645}.bg-red50{background-color:#DC35467D}.bg-red75{background-color:#DC3546C2}.bg-yellow{background-color:#FEC107 }.bg-yellow10{background-color:#FEC1071F}.bg-yellow25{background-color:#FEC1073D}.bg-yellow50{background-color:#FEC1077A}.bg-yellow75{background-color:#FEC107C2} 
+
+.bg-green{background-color : #25824F} .bg-green10{background-color:#25824F1C} .bg-green25{background-color:#25824F40}
+.bg-green50{background-color :#25824F78}.bg-green75{background-color :#25824FBD} .bg-blue{background-color :#0D6EFD }.bg-blue10{background-color: #0D6EFD1C}
+.bg-blue25{background-color :#0D6EFD42}.bg-blue50{background-color :#0D6EFD7A}.bg-blue75{background-color :#0D6EFDB8}
+
+.bg-night{background-color : #252525}.bg-ebony{background-color : black}.bg-snow{background-color :white}.bg-gray{background-color :#757F8A}.bg-gray10{background-color :#757F8A1F}.bg-gray25{background-color :#757F8A42}.bg-gray50{background-color :#757F8A80}.bg-gray75{background-color :#757F8ABA}
 
 
 
 
 .text-brown{color:brown;}.text-gold{color:#E5BF00} .text-gold50{color:#E5BF0078} .text-gold75{color:#E5BF00B8} .text-purple{color:purple} .text-purple50{color:#81007F73}.text-purple75{color:#81007FAB}.text-orange{color:orange}.text-cyan{color:cyan}.text-indigo{color:indigo}.text-red{color:#DC3546}.text-yellow{color:#FEC107}
 
+.text-green{color:#25824F} .text-blue{color :#0D6EFD} .text-night{color: #252525}.text-ebony{color:black}
+.text-snow{color:white}.text-gray{color:#757F8A}
+.text-trans{color: transparent }
 
 
 
+
+.active-bg-trans:active{background-color : transparent}
+.active-bg-orange:active{background-color:orange}  .active-bg-gold:active{background-color:#E5BF00 } .active-bg-indigo:active{background-color:indigo}  .active-bg-purple:active{background-color:purple}   .active-bg-cyan:active{background-color:#23EAEA }  .active-bg-red:active{background-color:#DC3546 }  .active-bg-blue:active{background-color:#0D6EFD}  .active-bg-green:active{background-color:#25824F } .active-bg-yellow:active{background-color:#FEC107} .active-bg-night:active{background-color:#252525} .active-bg-snow:active{background-color:white}  .active-bg-gray:active{background-color:#757F8A}        
+
+
+.hover-bg-trans:hover{background-color : transparent}
+.hover-bg-orange:hover{background-color:orange}  .hover-bg-gold:hover{background-color:#E5BF00 } .hover-bg-indigo:hover{background-color:indigo}  .hover-bg-purple:hover{background-color:purple}   .hover-bg-cyan:hover{background-color:#23EAEA }  .hover-bg-red:hover{background-color:#DC3546 }  .hover-bg-blue:hover{background-color:#0D6EFD}  .hover-bg-green:hover{background-color:#25824F } .hover-bg-yellow:hover{background-color:#FEC107} .hover-bg-night:hover{background-color:#252525} .hover-bg-snow:hover{background-color:white}  .hover-bg-gray:hover{background-color:#757F8A}        
+
+
+
+
+
+
+
+.active-text-trans:active{color : transparent}
+.active-text-orange:active{color:orange}  .active-text-gold:active{color:#E5BF00 } .active-text-indigo:active{color:indigo}  .active-text-purple:active{color:purple}   .active-text-cyan:active{color:#23EAEA }  .active-text-red:active{color:#DC3546 }  .active-text-blue:active{color:#0D6EFD}  .active-text-green:active{color:#25824F } .active-text-yellow:active{color:#FEC107} .active-text-night:active{color:#252525} .active-text-snow:active{color:white}  .active-text-gray:active{color:#757F8A}        
+
+
+.hover-text-trans:hover{color : transparent}
+.hover-text-orange:hover{color:orange}  .hover-text-gold:hover{color:#E5BF00 } .hover-text-indigo:hover{color:indigo}  .hover-text-purple:hover{color:purple}   .hover-text-cyan:hover{color:#23EAEA }  .hover-text-red:hover{color:#DC3546 }  .hover-text-blue:hover{color:#0D6EFD}  .hover-text-green:hover{color:#25824F } .hover-text-yellow:hover{color:#FEC107} .hover-text-night:hover{color:#252525} .hover-text-snow:hover{color:white}  .hover-text-gray:hover{color:#757F8A}        
