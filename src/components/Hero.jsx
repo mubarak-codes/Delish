@@ -8,8 +8,7 @@ const Hero = ({bg, text})=>{
  return(
   <>
    <section className={`${bg} ${text} px3 px4-sm mt17  hover-bg-red50`}>
-    Hero
-    <Link to="#">hi</Link>
+    <h1>Delish</h1>
    </section>
   </>
  )
