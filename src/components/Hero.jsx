@@ -1,16 +1,20 @@
 import {useNavigate, Link} from 'react-router-dom'
 
 
-const Hero = ({bg, text})=>{
+const Hero = ()=>{
  const navigate = useNavigate();
 
 
  return(
   <>
-   <section className={`${bg} ${text} px3 px4-sm mt17  hover-bg-red50`} style={{backgroundImage:'url(img/HeroBackground.jpg)',backgroundSize:'auto'}}>
-    <h1>Delish</h1>
-    <h2>ggg</h2>
+   <section className={` mt17   py6 px4 px5-sm`}>
+    <div className="row justify-content-center gap-3">
+     <h1 className="text-center ff-rubik fs10">Discover Delicious Recipes</h1>
+     <h5 className="text-center fw-normal fs4">Explore our collection of easy-to-follow recipe from appetizers to desserts</h5>
+     <Link to="/e" className="text-white bg-orange w50 text-center py3 rounded-3 hover-bg-red transit cursor-pointer fs2">Browse Recipes</Link>
+    </div>
    </section>
+
   </>
  )
 };

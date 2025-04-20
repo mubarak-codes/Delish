@@ -10,13 +10,13 @@ const Layout1 = ()=>{
  let [bg, setBg] = usePersistState('themeBg', 'bg-snow')
  let [text, setText] = usePersistState('themeText', 'text-ebony')
 
- document.body.className = `${bg} ${text} transit`
+ document.body.className = `${bg} ${text}`
 
  return(
   <>
    <section>
     <Navbar bg={bg} text={text} setText={setText} setBg={setBg} />
-    <Outlet bg={bg} text={bg}  />
+    <Outlet  />
     <Footer />
    </section>
   </>

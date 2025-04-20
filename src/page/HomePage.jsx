@@ -1,14 +1,14 @@
 import Hero from '../components/Hero'
-import Recipe from '../components/Recipe'
+import Recent from '../components/Recent'
 
 
 const HomePage = ()=>{
 
  return(
   <>
-   <section clasdName="">
+   <section className="">
     <Hero  />
-    <Recipe />
+    <Recent />
    </section>
   </>
  )

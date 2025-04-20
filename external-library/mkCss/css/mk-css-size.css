@@ -1,13 +1,14 @@
-.w0{width:0px}.w10{width:10%}.w20{width:20%}.w25{width:25%}.w30 {width:30%}.w40{width:40%}.w60{width:60%}.w50{width:50%}.w70{width:70%}.w80{width:80%}.w75{width:75%}.w90{width:90%}.w100{width:100%}.w25vw{width:25vw}.w50vw{width:50vw}.w75vw{width:75vw}.w100vw{width:100vw}.w1fr{width:1fr}.w2fr{width:2fr}.w3fr{width:3fr}.flex1{flex:1}.flex2{flex:2}.flex3{flex:3}.flex4{flex:4}.flex5{flex:5}
+.w10{width:10%}.w20{width:20%}.w25{width:25%}.w30 {width:30%}.w40{width:40%}.w60{width:60%}.w50{width:50%}.w70{width:70%}.w80{width:80%}.w75{width:75%}.w90{width:90%}.w100{width:100%}.w25vw{width:25vw}.w50vw{width:50vw}.w75vw{width:75vw}.w100vw{width:100vw}.w1fr{width:1fr}.w2fr{width:2fr}.w3fr{width:3fr}
 
 .mw-10{max-width: 10%;}
 
 
-@media(min-width:580px){.w10-sm{width:10%}.w20-sm{width:20%}.w25-sm{width:25%}.w30-sm{width:30%}.w40-sm{width:40%}.w50-sm{width:50%}.w60-sm{width:60%}.w70-sm{width:70%}.w75-sm{width:75%}.w80-sm{width:80%}.w90-sm{width:90%}.w100-sm{width:100%}.w25vw-sm{width:25vw}.w50vw-sm{width:50vw}.w75vw-sm{width:75vw}.w100vw-sm{width:100vw}.w1fr-sm{width:1fr}.w2fr-sm{width:2fr}.w3fr-sm{width:3fr}.flex1-sm{flex:1}.flex2-sm{flex:2}.flex3-sm{flex:3}.flex4-sm{flex:4}.flex5-sm{flex:5}}
+@media(min-width:580px){.w10-sm{width:10%}.w20-sm{width:20%}.w25-sm{width:25%}.w30-sm{width:30%}.w40-sm{width:40%}.w50-sm{width:50%}.w60-sm{width:60%}.w70-sm{width:70%}.w75-sm{width:75%}.w80-sm{width:80%}.w90-sm{width:90%}.w100-sm{width:100%}.w25vw-sm{width:25vw}.w50vw-sm{width:50vw}.w75vw-sm{width:75vw}.w100vw-sm{width:100vw}.w1fr-sm{width:1fr}.w2fr-sm{width:2fr}.w3fr-sm{width:3fr}
+}
 
-@media(min-width:780px){.w10-md{width:10%}.w20-md{width:20%}.w25-md{width:25%}.w30-md{width:30%}.w40-md{width:40%}.w50-md{width:50%}.w60-md{width:60%}.w70-md{width:70%}.w75-md{width:75%}.w80-md{width:80%}.w90-md{width:90%}.w100-md{width:100%}.w25vw-md{width:25vw}.w50vw-md{width:50vw}.w75vw-md{width:75vw}.w100vw-md{width:100vw}.w1fr-md{width:1fr}.w2fr-md{width:2fr}.w3fr-md{width:3fr}.flex1-md{flex:1}.flex2-md{flex:2}.flex3-md{flex:3}.flex4-md{flex:4}.flex5-md{flex:5}}
+@media(min-width:780px){.w10-md{width:10%}.w20-md{width:20%}.w25-md{width:25%}.w30-md{width:30%}.w40-md{width:40%}.w50-md{width:50%}.w60-md{width:60%}.w70-md{width:70%}.w75-md{width:75%}.w80-md{width:80%}.w90-md{width:90%}.w100-md{width:100%}.w25vw-md{width:25vw}.w50vw-md{width:50vw}.w75vw-md{width:75vw}.w100vw-md{width:100vw}.w1fr-md{width:1fr}.w2fr-md{width:2fr}.w3fr-md{width:3fr}}
 
-@media(min-width:990px) {.w10-lg{width:10%}.w20-lg{width:20%}.w25-lg{width:25%}.w30-lg{width:30%}.w40-lg{width:40%}.w50-lg{width:50%}.w60-lg{width:60%}.w70-lg{width:70%}.w75-lg{width:75%}.w80-lg{width:80%}.w90-lg{width:90%}.w100-lg{width:100%}.w25vw-lg{width:25vw}.w50vw-lg{width:50vw}.w75vw-lg{width:75vw}.w100vw-lg{width:100vw}.w1fr-lg{width:1fr}.w2fr-lg{width:2fr}.w3fr-lg{width:3fr}.flex1-lg{flex:1} .flex2-lg{flex: 2}.flex3-lg{flex:3}.flex4-lg{flex:4}.flex5-lg{flex:5}}
+@media(min-width:990px) {.w10-lg{width:10%}.w20-lg{width:20%}.w25-lg{width:25%}.w30-lg{width:30%}.w40-lg{width:40%}.w50-lg{width:50%}.w60-lg{width:60%}.w70-lg{width:70%}.w75-lg{width:75%}.w80-lg{width:80%}.w90-lg{width:90%}.w100-lg{width:100%}.w25vw-lg{width:25vw}.w50vw-lg{width:50vw}.w75vw-lg{width:75vw}.w100vw-lg{width:100vw}.w1fr-lg{width:1fr}.w2fr-lg{width:2fr}.w3fr-lg{width:3fr}} 
 
 
 

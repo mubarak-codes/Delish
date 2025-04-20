@@ -4,4 +4,9 @@
 
 
  
-.py1-sm{padding-block: 4px}.py2-sm{padding-block :8px}.py3-sm{padding-block: 12px}.py4-sm{padding-block:16px}.py5-sm{padding-block: 20px}.py6-sm{padding-block: 25px}.py7-sm{padding-block: 30px}.py8-sm{padding-block: 35px}.py9-sm{padding-block: 40px}.py10-sm{padding-block : 45px}.py11-sm{padding-block : 50px}.py12-sm{padding-block : 56px}.py13-sm{padding-block : 62px}.py14-sm{padding-block : 68px}.py15-sm{padding-block: 74px}.py16-sm{padding-block : 80px}.py17-sm{padding-block : 86px}.py18-sm{padding-block : 92px}.py19-sm{padding-block : 98px}.py20-sm{padding-block : 104px}
+
+@media (min-width:990px) {
+ .flex-lg{display:flex}.d-col-lg{flex-direction: column;}.d-row-lg{flex-direction: row;}.d-col-reverse-lg{flex-direction : column-reverse}.d-row-reverse-lg{flex-direction: row-reverse}
+.content-center-lg{justify-content: center ;}.content-start-lg{justify-content: start;}.content-end-lg{justify-content: end;}.content-between-lg{justify-content: space-between;}.content-around-lg{justify-content: space-around;}.content-evenly-lg{justify-content: space-evenly;}
+.items-center-lg{align-items: center ;}.items-start-lg{align-items: start;}.items-end-lg{align-items: end;}.items-between-lg{align-items: space-between;}.items-around-lg{align-items: space-around;}.items-evenly-lg{align-items: space-evenly;}.items-stretch-lg{align-items: stretch ;}
+}
