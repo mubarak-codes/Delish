@@ -11,7 +11,7 @@ const Hero = ()=>{
     <div className="row justify-content-center gap-3">
      <h1 className="text-center ff-rubik fs10">Discover Delicious Recipes</h1>
      <h5 className="text-center fw-normal fs4">Explore our collection of easy-to-follow recipe from appetizers to desserts</h5>
-     <Link to="/e" className="text-white bg-orange w50 text-center py3 rounded-3 hover-bg-red transit cursor-pointer fs2">Browse Recipes</Link>
+     <Link to="/favorite" className="text-white bg-orange w50 text-center py3 rounded-3 hover-bg-red transit cursor-pointer fs2">Browse Recipes</Link>
     </div>
    </section>
 

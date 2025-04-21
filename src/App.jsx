@@ -4,6 +4,7 @@ import HomePage from './page/HomePage.jsx'
 import SearchPage from './page/SearchPage.jsx'
 import {usePersistState} from '../external-library/mkHooks/LocalStorage.js'
 import NotFoundPage from './page/NotFoundPage'
+import Favorite from './page/Favorite'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <Route index element={<HomePage  />} />
     <Route path='/search' element={<SearchPage />} />
     <Route path='*' element={<NotFoundPage />} />
+    <Route path='/favorite' element={<Favorite />} />
 
    </Route>
   )

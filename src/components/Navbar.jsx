@@ -24,7 +24,7 @@ const Navbar = ({bg, text, setBg, setText})=>{
 
  return(
   <>
-   <section>
+   <section className="">
     <nav className={`navbar navbar-expand ${bg} ${text} bb2 b-red fixed-top px3 py3 py4-sm `}>
      <div className="navbar-brand w20 w10-sm">
       <a href="/"><img src="img/Logo.png" className="w100" /></a>
