@@ -17,7 +17,7 @@ const Favorite = ()=>{
      {data?.map((favorite)=>(
       <div key={favorite.id} className="">
        <div className="text-break relative bb2 pb3 mb3">
-        <i className="bi bi-star absolute top-0 end-0 m3 fs4 bg-gray75 rounded-circle px1 text-snow"></i> 
+        <i className="bi bi-star-fill text-orange absolute top-0 end-0 m3 fs4 bg-gray75 rounded-circle px1 "></i> 
         <img src={favorite.image} className="w100 rounded-3 mb6 h200px" />
         <h5 className="fw-bolder fs2">{favorite.title}</h5>
         <div className="fs1 opacity-75 mb2">{favorite.body.substring(0, 80)} . . .</div>
