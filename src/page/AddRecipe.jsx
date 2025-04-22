@@ -12,7 +12,7 @@ const AddRecipe = ({bg, text})=>{
 
  return(
   <>
-   <section className="mt6 px4 px5-sm">
+   <section className="my6 px4 px5-sm">
     <h3 className="fs7 mb5 ff-rubik text-center">Add Recipe</h3>
     <form onSubmit={submitForm}>
     <label htmlFor="full-name" className="fw-bolder fs2 mb3">Full Name</label>

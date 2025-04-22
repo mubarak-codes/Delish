@@ -5,7 +5,7 @@ const SearchPage = ()=>{
 
  return(
   <>
-   <section>
+   <section className="my6 px4 px5-sm">
     SearchPage
    </section>
   </>

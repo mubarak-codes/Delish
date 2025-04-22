@@ -1,5 +1,6 @@
 .transit{transition : all.15s ease-in-out}
 
+.opacity10{opacity:0.1} .opacity25{opacity:0.25} .opacity50{opacity:0.5} .opacity75{opacity:0.75} .opacity100{opacity:1}
 
 
 
@@ -10,3 +11,5 @@
 .content-center-lg{justify-content: center ;}.content-start-lg{justify-content: start;}.content-end-lg{justify-content: end;}.content-between-lg{justify-content: space-between;}.content-around-lg{justify-content: space-around;}.content-evenly-lg{justify-content: space-evenly;}
 .items-center-lg{align-items: center ;}.items-start-lg{align-items: start;}.items-end-lg{align-items: end;}.items-between-lg{align-items: space-between;}.items-around-lg{align-items: space-around;}.items-evenly-lg{align-items: space-evenly;}.items-stretch-lg{align-items: stretch ;}
 }
+
+

@@ -10,7 +10,7 @@ const Favorite = ()=>{
 
  return(
   <>
-   <section className="px4 px5-sm mt6">
+   <section className="px4 px5-sm my6">
     <h3 className="ff-rubik fs7 text-center mb5">Favorite</h3>
     {isLoading? <div className="text-center">Loading...</div>: 
     <div className="d-grid gr2-sm gap-3 gr3-md">

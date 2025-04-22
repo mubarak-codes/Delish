@@ -6,6 +6,7 @@ import {usePersistState} from '../external-library/mkHooks/LocalStorage.js'
 import NotFoundPage from './page/NotFoundPage'
 import Favorite from './page/Favorite'
 import AddRecipe from './page/AddRecipe'
+import About from './page/About'
 
 
 function App() {
@@ -23,8 +24,8 @@ function App() {
     <Route path='/search' element={<SearchPage />} />
     <Route path='*' element={<NotFoundPage />} />
     <Route path='/favorite' element={<Favorite />} />
-    <Route path='/add-recipe' element={<AddRecipe bg={bg} text={text} />} />
-
+    <Route path='/add-recipe' element={<AddRecipe />} />
+    <Route path='/about' element={<About />} />
    </Route>
   )
  )
