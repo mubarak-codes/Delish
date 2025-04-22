@@ -4,14 +4,25 @@ import {useParams} from 'react-router-dom'
 
 
 const Recent = ()=>{
- let [addFavorite, setAddFavorite] = useState('bi-star')
+ let [addFavorite, setAddFavorite] = useState({})
 
  let {data: recipes, isLoading} = useQuery({
   queryFn: fetchRecipe,
   queryKey: ['recipes']
  });
 
-  
+ const addToFavorite = (recipe)=>{
+  setAddFavorite(prev=> {
+   let newFave = {...prev};
+   if(newFave[recipe.id]){
+    delete newFave[recipe.id];
+   } else {
+    newFave[recipe.id] = true
+   };
+
+   return newFave;
+  });
+ } 
  
 
  return(
@@ -22,8 +33,8 @@ const Recent = ()=>{
     <div className="d-grid gr2-sm gr3-md gap-3">
      {recipes?.map((recipe)=>(
      <div className="text-break relative bb2 pb3 mb3" key={recipe.id}>
-      <i className="bi bi-star absolute top-0 end-0 m3 fs4 bg-gray75 rounded-circle px1 text-snow" onClick={()=>addToFavorite(recipe)}></i> 
-      <img src="img/HeroBackground.jpg" className="w100 rounded-3 mb6 h200px" />
+      <i className={`bi ${addFavorite[recipe.id]? 'bi-star-fill': 'bi-star'} absolute top-0 end-0 m3 fs4 bg-gray75 rounded-circle px1 text-snow`} onClick={()=>addToFavorite(recipe)}></i> 
+      <img src={recipe.image} className="w100 rounded-3 mb6 h200px" />
       <h5 className="fw-bolder fs2">{recipe.title}</h5>
       <div className="fs1 opacity-75 mb2">{recipe.body.substring(0, 70)} . . .</div>
       <div className="fs1 opacity-75">{recipe.date}</div>
