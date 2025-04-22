@@ -5,18 +5,25 @@ import SearchPage from './page/SearchPage.jsx'
 import {usePersistState} from '../external-library/mkHooks/LocalStorage.js'
 import NotFoundPage from './page/NotFoundPage'
 import Favorite from './page/Favorite'
+import AddRecipe from './page/AddRecipe'
 
 
 function App() {
+ let [bg, setBg] = usePersistState('themeBg', 'bg-snow')
+ let [text, setText] = usePersistState('themeText', 'text-ebony')
+
+ document.body.className = `${bg} ${text}`
+
 
 
  const router = createBrowserRouter(
   createRoutesFromElements(
-   <Route path='/' element={<Layout1 />} >
+   <Route path='/' element={<Layout1 bg={bg} text={text} setText={setText} setBg={setBg} />} >
     <Route index element={<HomePage  />} />
     <Route path='/search' element={<SearchPage />} />
     <Route path='*' element={<NotFoundPage />} />
     <Route path='/favorite' element={<Favorite />} />
+    <Route path='/add-recipe' element={<AddRecipe bg={bg} text={text} />} />
 
    </Route>
   )

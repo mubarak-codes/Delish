@@ -2,6 +2,8 @@ import {Outlet} from 'react-router-dom';
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import {usePersistState} from '../../external-library/mkHooks/LocalStorage.js'
+import {ToastContainer} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css'
 
 
 
@@ -16,6 +18,7 @@ const Layout1 = ()=>{
   <>
    <section>
     <Navbar bg={bg} text={text} setText={setText} setBg={setBg} />
+    <ToastContainer />
     <Outlet  />
     <Footer />
    </section>
