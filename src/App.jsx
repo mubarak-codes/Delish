@@ -7,6 +7,7 @@ import NotFoundPage from './page/NotFoundPage'
 import Favorite from './page/Favorite'
 import AddRecipe from './page/AddRecipe'
 import About from './page/About'
+import Help from './page/Help'
 
 
 function App() {
@@ -26,6 +27,8 @@ function App() {
     <Route path='/favorite' element={<Favorite />} />
     <Route path='/add-recipe' element={<AddRecipe />} />
     <Route path='/about' element={<About />} />
+    <Route path='/help' element={<Help />} />
+
    </Route>
   )
  )
