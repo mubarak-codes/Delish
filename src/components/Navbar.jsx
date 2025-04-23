@@ -50,7 +50,7 @@ const Navbar = ({bg, text, setBg, setText})=>{
       <a href="/about" className="hover-fade active-text-snow active-bg-orange p2 rounded-3 transit"><i className="fa-regular fa-address-card fs1 me2"></i>About us </a>
       <a href="/help" className="hover-fade active-bg-orange active-text-snow p2 rounded-3 transit "> <i className="bi bi-question-circle me2"></i>Help & Support</a>
 
-      <div className="fs4 p2 d-flex justify-content-center gap-4 gap-lg-4 mt2 border-top border-1 pt5">
+      <div className="fs4 p2 d-flex justify-content-center gap-4 gap-lg-5 mt2 border-top border-1 pt5">
        <i className="fa-brands fa-youtube hover-text-orange transit"></i> 
        <i className="fa-brands fa-facebook hover-text-orange transit"></i>
        <i className="fa-brands fa-instagram hover-text-orange transit"></i>
