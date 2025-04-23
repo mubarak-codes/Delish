@@ -10,6 +10,7 @@ import About from './page/About'
 import Help from './page/Help'
 
 
+
 function App() {
  let [bg, setBg] = usePersistState('themeBg', 'bg-snow')
  let [text, setText] = usePersistState('themeText', 'text-ebony')
@@ -28,7 +29,6 @@ function App() {
     <Route path='/add-recipe' element={<AddRecipe />} />
     <Route path='/about' element={<About />} />
     <Route path='/help' element={<Help />} />
-
    </Route>
   )
  )

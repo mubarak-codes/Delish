@@ -31,7 +31,7 @@ const Navbar = ({bg, text, setBg, setText})=>{
      </div>
 
      <form className=" w50-sm w60 ms-auto relative me-3">
-      <input className={`form-control rounded-pill w100 bg-gray10 input ${text}  py3-sm fs2 fs3-sm`} placeholder="Search for recipe..." />
+      <input className={`form-control rounded-pill w100 bg-gray10 input ${text}  py3-sm fs2 fs3-sm focus-input`} placeholder="Search for recipe..." />
       <i className="fa-solid fa-search absolute top-0 bottom-0  end-0 me-1 my1 cursor-pointer bg-orange text-snow px5 px7-sm py2 py3-sm  rounded-pill hover-bg-orange50 active-bg-red fs1 fs3-sm transit"></i>
      </form>
 
@@ -48,7 +48,7 @@ const Navbar = ({bg, text, setBg, setText})=>{
       <a href="/about" className="hover-fade active-text-snow active-bg-orange p2 rounded-3 transit"><i className="fa-regular fa-address-card fs1 me2"></i>About us </a>
       <a href="/help" className="hover-fade active-bg-orange active-text-snow p2 rounded-3 transit "> <i className="bi bi-question-circle me2"></i>Help & Support</a>
 
-      <div className="fs4 p2 d-flex justify-content-center gap-3 gap-lg-4 mt2 border-top border-2 pt5">
+      <div className="fs4 p2 d-flex justify-content-center gap-3 gap-lg-4 mt2 border-top border-1 pt5">
        <i className="fa-brands fa-youtube hover-text-orange transit"></i> 
        <i className="fa-brands fa-facebook hover-text-orange transit"></i>
        <i className="fa-brands fa-instagram hover-text-orange transit"></i>
