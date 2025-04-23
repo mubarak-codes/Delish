@@ -34,7 +34,7 @@ const Favorite = ()=>{
 };
 
 const fetchFavorite = ()=>{
- return fetch('https://gist.githubusercontent.com/mubarak-codes/91ae5350812a09ad40b9ca3cb8b920f0/raw/66db9a429575548fcd635d66000a51c8a09a6de7/Favorite.json')
+ return fetch('https://gist.githubusercontent.com/mubarak-codes/91ae5350812a09ad40b9ca3cb8b920f0/raw/b4b0661185c872ebae75aafef1ec0e2b406a7828/Favorite.json')
   .then(res=> res.json())
   .then(data=>{
    return data;

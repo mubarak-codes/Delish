@@ -48,7 +48,7 @@ const Recent = ()=>{
 };
 
 const fetchRecipe = ()=>{
- return fetch('https://gist.githubusercontent.com/mubarak-codes/8ecb0cbe679ccc14a84c190ca56ad6ef/raw/c55bad42387c173d499d0eab69d22e26eadefc57/recipe.json')
+ return fetch('https://gist.githubusercontent.com/mubarak-codes/8ecb0cbe679ccc14a84c190ca56ad6ef/raw/43bbdb318b3a2070dab0ed80fda4c5d996977513/recipe.json')
   .then(res=> res.json())
 };
 
