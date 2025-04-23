@@ -7,7 +7,7 @@ const Hero = ()=>{
 
  return(
   <>
-   <section className="py6 px4 px10-sm d-grid gr2-sm gap-5">
+   <section className="py6 px4 px15-md px7-sm d-grid gr2-sm gap-5">
     <div className="">
      <h1 className="text-center text-sm-start ff-rubik mb4">Discover Delicious Recipes</h1>
      <div className="text-center text-sm-start opacity75 mb5">Explore our collection of easy-to-follow recipe from all over the world from appetizers to desserts</div>

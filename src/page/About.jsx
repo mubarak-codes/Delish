@@ -5,7 +5,7 @@ const About = ()=>{
 
  return(
   <>
-   <section className="px4 px5-sm my6">
+   <section className="px4 px20-md px10-sm my6">
     <h3 className="mb5 ff-rubik text-center fs7">About</h3>
     <div className="opacity75">
      <b className="opacity100 ff-rubik">Welcome to Delish</b><br /><br />

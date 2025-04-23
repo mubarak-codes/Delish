@@ -5,7 +5,7 @@ const Help = ()=>{
 
  return(
   <>
-   <section className="my6 px4 px5-sm">
+   <section className="my6 px4 px20-sm">
     <h3 className="ff-rubik mb5 text-center fs7">FAQs</h3>
     <div className="gap-4 d-grid">
      <div className="b rounded-3 p3">
