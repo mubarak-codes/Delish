@@ -23,7 +23,7 @@ const AddRecipe = ({bg, text})=>{
     <input type="text" id="full-name" placeholder="Enter post title" className={`form-control bg-trans text-gray rounded-pill input fs2 mb5 focus-input`} required/>
     <label htmlFor="full-name" className="fw-bolder fs2 mb3">Body</label>
     <textarea id="full-name" rows="8" placeholder="Enter post body" className={`form-control bg-trans text-gray rounded-4 input fs2 mb5 focus-input`} required></textarea>
-     <div className="flex content-center"><button type="submit" className="bg-orange hover-bg-red rounded-4 text-center fs2 p2 px4" >Submit</button></div>
+     <div className="flex content-center"><button type="submit" className="bg-orange text-snow hover-bg-red rounded-4 text-center fs2 p2 px4" >Submit</button></div>
     </form>
 
    </section>

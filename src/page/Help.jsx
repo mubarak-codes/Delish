@@ -7,7 +7,7 @@ const Help = ()=>{
   <>
    <section className="my6 px4 px5-sm">
     <h3 className="ff-rubik mb5 text-center fs7">FAQs</h3>
-    <div className="gap-3 d-grid">
+    <div className="gap-4 d-grid">
      <div className="b rounded-3 p3">
       <div data-bs-toggle="collapse" data-bs-target="#faq1" className="flex items-center">
        <div className="fw-semibold">How do I search for recipes?</div>
