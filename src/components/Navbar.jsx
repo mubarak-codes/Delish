@@ -41,7 +41,7 @@ const Navbar = ({bg, text, setBg, setText})=>{
       <i className="fa-solid fa-bars nav-item fs5 " onClick={()=>dropdown()}></i>
      </div>
 
-     <div className={`fixed-top my14 my15-sm my17-md my18-lg shadow-sm d-grid ${bg} ${drop} border border-2 border-secondary border-opacity-10 w60 w25-md w30-sm rounded-3 py4 px1 ms-auto fs2 gap-2 `} ref={dropRef}>
+     <div className={`fixed-top my14 my15-sm my17-md my18-lg shadow-sm d-grid ${bg} ${drop} border border-2 border-secondary border-opacity-10 w60 w30-md w30-sm rounded-3 py4 px1 ms-auto fs2 gap-2 `} ref={dropRef}>
       <a href="/favorite" className="hover-fade active-bg-orange p2 active-text-snow rounded-3 transit"><i className="bi bi-star me2"></i>Favorite</a>
       <a href="/search" className="hover-fade active-bg-orange p2 active-text-snow rounded-3 transit"><i className="bi bi-search me2"></i>Browse Recipe</a>
 

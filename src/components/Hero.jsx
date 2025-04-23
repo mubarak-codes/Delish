@@ -7,12 +7,17 @@ const Hero = ()=>{
 
  return(
   <>
-   <section className={`  py6 px4 px5-sm `}>
-    <div className="row justify-content-center gap-3">
-     <h1 className="text-center ff-rubik fs10">Discover Delicious Recipes</h1>
-     <h5 className="text-center fw-normal fs4 opacity75">Explore our collection of easy-to-follow recipe from appetizers to desserts</h5>
-     <a href="/search" className="text-white bg-orange w50 text-center py3 rounded-3 hover-bg-red transit cursor-pointer fs2">Browse Recipes</a>
+   <section className="py6 px4 px10-sm d-grid gr2-sm gap-5">
+    <div className="">
+     <h1 className="text-center text-sm-start ff-rubik mb4">Discover Delicious Recipes</h1>
+     <div className="text-center text-sm-start opacity75 mb5">Explore our collection of easy-to-follow recipe from all over the world from appetizers to desserts</div>
+    
+    <a href="/search" className="flex content-center content-start-sm">
+     <div className="bg-orange p3 rounded-3">Browse recipes</div>
+    </a>
     </div>
+
+    <img src="img/Pizza.png" className="w70 w60-lg d-none d-sm-inline ms-auto" />
    </section>
 
   </>
