@@ -5,20 +5,20 @@ const SearchPage = ()=>{
 
  return(
   <>
-   <section className="my7 px4 px20-md px10-sm">
+   <section className="my7 mt12 px4 px20-md px10-sm">
     <div className="flex items-center gap-2 mb6 px20-md px10-sm">
-     <input placeholder="Search for recipes" type="text" className="form-control bg-trans input focus-input rounded-3 d-inline fs2 text-gray py3" />
-     <div className="d-inline bg-orange hover-bg-red p3 px4 fs2 rounded-3 text-snow cursor-pointer transit">Search</div>
+     <input placeholder="Search for recipes" type="text" className=" bg-trans b focus-b-orange focus-input input focus-opacity75 rounded-3 d-inline fs2 focus-fs1 w100 ps3 transit text-inherit py3" />
+     <div className="d-inline bg-orange hover-bg-red p2 px4 fs2 rounded-3 text-snow cursor-pointer transit">Search</div>
     </div>
 
-    <div className="flex gap-3 mb6 fs2 px20-md px10-sm">
-     <select className="form-select fs2 bg-trans text-gray py3">
+    <div className="flex gap-2 my10 fs2 px20-md px10-sm">
+     <select className="b select focus-b-orange rounded-3 w100 focus-fs1 focus-opacity75 fs2 bg-trans rounded-3 text-gray transit px3 ">
       <option value="Breakfast">Breakfast</option>
       <option value="Lunch">Lunch</option>
       <option value="Dinner">Dinner</option>
      </select>
 
-     <select className="form-select fs2 bg-trans text-gray py3">
+     <select className="focus-opacity75 focus-fs1 focus-b-orange b transit w100 px3 fs2 bg-trans text-gray rounded-3 ">
       <option value="Vegetarian">Vegetarian</option>
       <option value="Vegan">Vegan</option>
       <option value="Halal">Halal</option>
@@ -27,7 +27,7 @@ const SearchPage = ()=>{
     </div>
    
     <div className="flex content-center px20-md px10-sm">
-     <select className="form-select fs2 bg-trans text-gray py3 w60">
+     <select className="focus-opacity75 focus-fs1 b focus-b-orange rounded-3 transit fs2 bg-trans text-gray px3  w60">
       <option value="Snacks">Snacks</option>
       <option value="Desserts">Desserts</option>
       <option value="Appetizers">Appetizers</option>

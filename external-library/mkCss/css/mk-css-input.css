@@ -1,4 +1,4 @@
-.input{}.input::placeholder{opacity:0.3;color: inherit}
+input, select{outline:none; height:37px; background-color:inherit} input::placeholder{opacity:0.4;color: inherit} .option{opacity:0.25}
 
 
 .focus-input:focus{background-color: transparent}
