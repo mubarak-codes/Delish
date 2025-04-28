@@ -12,8 +12,8 @@ const Hero = ()=>{
      <h1 className="text-center text-sm-start ff-rubik mb4">Discover Delicious Recipes</h1>
      <div className="text-center text-sm-start opacity75 mb5">Explore our collection of easy-to-follow recipe from all over the world from appetizers to desserts</div>
     
-    <a href="/search" className="flex content-center content-start-sm">
-     <div className="bg-orange p3 rounded-3">Browse recipes</div>
+    <a href="/search" className="flex content-center content-start-sm text-snow link">
+     <div className="bg-orange hover-bg-red p3 px4 fs2 rounded-pill">Browse recipes</div>
     </a>
     </div>
 

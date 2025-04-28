@@ -16,10 +16,10 @@ const Footer = ()=>{
       <i className="fa-solid fa-envelope hover-text-orange transit"></i>
      </div>
      <div className="fs2 text-nowrap flex gap-3 content-center">
-      <a href="/favorite" className="hover-fade link">Favorite</a>
-      <a href="/add-recipe" className="hover-fade link">Add Recipe</a>
-      <a href="/about" className="hover-fade link">About</a>
-      <a href="/help" className="hover-fade link">Help & Support</a>
+      <a href="/favorite" className="hover-fade link-inherit">Favorite</a>
+      <a href="/add-recipe" className="hover-fade link-inherit">Add Recipe</a>
+      <a href="/about" className="hover-fade link-inherit">About</a>
+      <a href="/help" className="hover-fade link-inherit">Help & Support</a>
      </div>  
 
      <div className="fs1 text-center mt6 opacity75">© Delish 2025</div>
