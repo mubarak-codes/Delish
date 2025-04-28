@@ -25,17 +25,17 @@ const Navbar = ({bg, text, setBg, setText})=>{
  return(
   <>
    <section className="">
-    <nav className={`navbar navbar-expand ${bg} ${text} bb2 b-red fixed-top px3 py3 py4-sm `}>
-     <div className="navbar-brand w20 w10-sm">
+    <nav className={`navbar navbar-expand ${bg} ${text} bb2 b-red fixed-top py3 py4-sm `}>
+     <div className="navbar-brand w20 w10-sm ps2">
       <a href="/"><img src="img/Logo.png" className="w100" /></a>
      </div>
 
-     <form className=" w50-sm w60 ms-auto relative me-3">
-      <input className={`form-control rounded-pill w100 bg-gray10 input ${text}  py3-sm fs2 fs3-sm focus-input`} placeholder="Search for recipe..." />
+     <form className=" w40-sm w50 ms-auto relative me3">
+      <input className={`rounded-pill w100 bg-trans input ${text}  py3-sm fs2 fs3-sm p2 focus-input b focus-b-orange focus-opacity75`} placeholder="Search for recipe..." />
       <i className="fa-solid fa-search absolute top-0 bottom-0  end-0 me-1 my1 cursor-pointer bg-orange text-snow px5 px7-sm py2 py3-sm  rounded-pill hover-bg-orange50 active-bg-red fs1 fs3-sm transit"></i>
      </form>
 
-     <div className="navbar-nav ms-auto d-flex align-items-center gap-3">
+     <div className="navbar-nav ms-auto d-flex align-items-center gap-3 me3">
 
       <i className={`bi ${themeIcon} nav-item fs5`} onClick={()=>changeTheme()}></i>
       <i className="fa-solid fa-bars nav-item fs5 " onClick={()=>dropdown()}></i>

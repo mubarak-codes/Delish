@@ -1,5 +1,9 @@
 .justify-self-center{justify-self:center}
 
+
+.vertical-center{vertical-align: middle} .vertical-baseline{vertical-align: baseline} .vertical-top{vertical-align: top} .vertical-bottom{vertical-align: bottom}
+
+
 .d-grid{display:grid}.gr{grid-template-columns:1fr}.gr2{grid-template-columns:1fr 1fr}.gr3{grid-template-columns:1fr 1fr 1fr}.gr4{grid-template-columns:1fr 1fr 1fr 1fr}.gr5{grid-template-columns:1fr 1fr 1fr 1fr 1fr}.gr6{grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr}.gr-auto{grid-auto-columns:auto;grid-auto-flow:column;overflow:hidden;}
 
 @media(min-width:580px){.d-grid-sm{display:grid}.gr-sm{grid-template-columns:1fr}.gr2-sm{grid-template-columns:1fr 1fr}.gr3-sm{grid-template-columns:1fr 1fr 1fr}.gr4-sm{grid-template-columns:1fr 1fr 1fr 1fr}.gr5-sm{grid-template-columns:1fr 1fr 1fr 1fr 1fr}.gr6-sm{grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr}.gr-auto-sm{grid-auto-columns:auto;grid-auto-flow:column;overflow:hidden;}}
@@ -44,8 +48,4 @@
 
 
 
-
-
-
-
-.relative{position:relative}.absolute{position:absolute}
+.overflow-hidden{overflow: hidden}

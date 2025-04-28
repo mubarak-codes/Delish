@@ -1,4 +1,4 @@
 .input{}.input::placeholder{opacity:0.3;color: inherit}
 
 
-.focus-input:focus{background-color: transparent; color: inherit}
+.focus-input:focus{background-color: transparent}

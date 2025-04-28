@@ -1,10 +1,12 @@
 @import url('mk-css-color.css');
-@import url('mk-css-grid.css');
+@import url('mk-css-display.css');
 @import url('mk-css-size.css');
 @import url('mk-css-space.css');
 @import url('mk-css-effect.css');
 @import url('mk-css-border.css');
 @import url('mk-css-input.css');
+@import url('mk-css-position.css');
+@import url('mk-css-text.css');
 
 
 @font-face{font-family:Bebas;src:url(/external-library/mkCss/font/fontFamily/Bebas-Regular.ttf);}@font-face{font-family:Caudex;src:url(/external-library/mkCss/font/fontFamily/Caudex-Regular.ttf);}@font-face{font-family:JosefinSans;src:url(/external-library/mkCss/font/fontFamily/JosefinSans-Regular.ttf);}@font-face{font-family:Montserrat;src:url(/external-library/mkCss/font/fontFamily/Montserrat-Regular.ttf );}@font-face{font-family:Poppins;src:url(/external-library/mkCss/font/fontFamily/Poppins-Regular.ttf);}@font-face{font-family:RobotoCondensed;src:url(/external-library/mkCss/font/fontFamily/Roboto-Condensed.ttf);}@font-face{font-family:Rubik;src:url(/external-library/mkCss/font/fontFamily/Rubik-Bold.ttf);}
@@ -12,15 +14,7 @@
 .ff-bebas{font-family:Bebas;}.ff-caudex{font-family:Caudex;}.ff-josefin-sans{font-family:JosefinSans;}.ff-montserrat{font-family:Montserrat;}.ff-poppins{font-family:Poppins;}.ff-roboto-condensed{font-family:RobotoCondensed;}.ff-rubik{font-family:Rubik;}.ff-montserrat-bold{font-family:MontserratBold;}.ff-josefin-sans-bold{font-family:JosefinSansBold;}.ff-ubuntu{font-family:Ubuntu;}
 
 button{border:none;background-color:transparent;color:inherit}Link,a{text-decoration:none;color:inherit}.card{border-radius:10px;box-shadow:0 3px 4px #e3e3e3;border:none}.place-items-center{place-items:center}ul{list-style-type:none}.cursor-pointer{cursor:pointer}
-
-.hover-fade{transition: opacity 0.15s ease-in-out}.hover-fade:hover{opacity:0.5}.click-fade{transition:opacity 0.15s ease-in-out}.click-fade:active{opacity:0.5}.click-grow{transition:transform 0.15s ease-in-out}.click-grow:active{transform:scale(1.1)}
-
-
-.fs1{font-size:12px}.fs2{font-size:14px}.fs3{font-size:16px}.fs4{font-size:18px}.fs5{font-size:20px}.fs6{font-size:22px}.fs7{font-size:24px}.fs8{font-size:26px}.fs9{font-size:28px}.fs10{font-size:30px}
-
-@media(min-width:580px){.fs1-sm{font-size:12px}.fs2-sm{font-size:14px}.fs3-sm{font-size:16px}.fs4-sm{font-size:18px}.fs5-sm{font-size:20px}.fs6-sm{font-size:22px}.fs7-sm{font-size:24px}.fs8-sm{font-size:26px}.fs9-sm{font-size:28px}.fs10-sm{font-size:30px}}
-
-@media(min-width:780px){.fs1-md{font-size:12px}.fs2-md{font-size:14px}.fs3-md{font-size:16px}.fs4-md{font-size:18px}.fs5-md{font-size:20px}.fs6-md{font-size:22px}.fs7-md{font-size:24px}.fs8-md{font-size:26px}.fs9-md{font-size:28px}.fs10-md{font-size:30px}}
+.link{text-decoration:none; color:inherit}
 
 
-.overflow-hidden{overflow: hidden}
+
