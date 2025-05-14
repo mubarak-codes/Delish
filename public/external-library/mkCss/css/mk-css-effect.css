@@ -1,0 +1,32 @@
+.transit{transition : all 0.15s ease-in-out}
+
+
+
+.hover-fade{transition: opacity 0.15s ease-in-out}.hover-fade:hover{opacity:0.5}.click-fade{transition:opacity 0.15s ease-in-out}.click-fade:active{opacity:0.5}.click-grow{transition:transform 0.15s ease-in-out}.click-grow:active{transform:scale(1.1)} .hover-grow{transition: transform 0.15s ease-in-out} .hover-grow:hover{transform:scale(1.1)}
+
+
+
+
+
+/*spinners*/
+.spinner1{
+  margin-left: 50%; margin-top:10%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-image: linear-gradient(to right, #7E7E7E 50%, #B8B8B8 50%); 
+  -webkit-mask: radial-gradient(transparent 19px, #000 20px);
+  mask: radial-gradient(transparent 28px, #000 5px);
+  animation: rotate 0.7s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) ;
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
