@@ -85,6 +85,7 @@ drawerToggler.forEach((toggler)=>{
  });
  
   let exitButton = drawerTarget.querySelector('.drawer-exit');  
+  if(exitButton){
  exitButton.addEventListener('click', ()=>{
   display = false
   if (drawerTarget.classList.contains('drawer-bottom')) {
@@ -100,5 +101,6 @@ drawerToggler.forEach((toggler)=>{
     drawerTarget.classList.remove('drawer-true-end');
     drawerTarget.classList.add('drawer-false-end');
    }
- }) 
+ });
+};
 });
