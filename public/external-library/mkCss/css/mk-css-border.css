@@ -30,7 +30,7 @@
 
 .b-night{border-color : #252525}.b-ebony{border-color : black}.b-snow{border-color :white}
 
-.b-gray{border-color :#808080}.b-gray10{border-color :#8080801C}.b-gray25{border-color :#8080803B}.b-gray50{border-color :#8080807A}.b-gray75{border-color :#808080C4}
+.b-gray{border-color :#808080}.b-gray10{border-color :#80808017}.b-gray25{border-color :#8080803B}.b-gray50{border-color :#8080807A}.b-gray75{border-color :#808080C4}
 
 .b-lemon{border-color: #B1E548}.b-lemon10{border-color:#B1E5482E}.b-lemon25{border-color:#B1E5484D}.b-lemon50{border-color:#B1E5488A}.b-lemon75{border-color:#B1E548CF}
 
@@ -145,3 +145,13 @@
 .focus-ol-orange:focus{outline-color:orange}  .focus-ol-gold:focus{outline-color:#E5BF00 } .focus-ol-indigo:focus{outline-color:indigo}  .focus-ol-purple:focus{outline-color:purple}   .focus-ol-cyan:focus{outline-color:#23EAEA }  .focus-ol-red:focus{outline-color:#DC3546 }  .focus-ol-blue:focus{outline-color:#0D6EFD}
 
 .focus-ol-green:focus{outline-color:#25824F } .focus-ol-yellow:focus{outline-color:#FEC107} .focus-ol-night:focus{outline-color:#252525} .focus-ol-snow:focus{outline-color:white}  .focus-ol-gray:focus{outline-color:#808080}   .focus-ol-pink:focus{outline-color: hotpink}.focus-ol-lemon:focus{outline-color: #B1E548}
+
+
+
+
+/*border radiuus*/
+.br1{border-radius: 4px } .br2{border-radius: 8px;} .br3{border-radius: 13px} .br4{border-radius: 19px} .br5{border-radius: 26px} .br6{border-radius: 34px} .br-circle{border-radius: 50%} .br-pill{border-radius: 50rem} 
+
+.br-top{border-top-left-radius: 10px; border-top-right-radius: 10px} .br-right{border-top-right-radius: 10px; border-bottom-right-radius: 10px} .br-bottom{border-bottom-right-radius: 10px; border-bottom-left-radius: 10px} .br-left{border-bottom-left-radius: 10px; border-top-left-radius: 10px}
+
+.br-top-left{border-top-left-radius: 10px} .br-top-right{border-top-right-radius: 10px} .br-bottom-left{border-bottom-left-radius: 10px} .br-bottom-right{border-bottom-right-radius: 10px}
