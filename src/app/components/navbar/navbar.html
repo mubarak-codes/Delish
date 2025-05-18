@@ -1,19 +1,37 @@
 <section class="">
   <nav class="navbar fixed top0 left0 right0 bb">
-    <div class="mx5 mx7-sm mx9-md w100">
-     <div class="navbar-brand w100px pb2">
-      <img src="icon/Logo.png" alt="" class="w70">
+    <div class="mx5 mx7-sm mx9-md w100 flex items-center h50px">
+     <div class="navbar-brand w75px ">
+      <img src="icon/Logo.png" alt="" class="w100">
      </div>
 
-     <div class="ms-self">
-      <p data-bs-toggle="offcanvas" data-bs-target="#menu" class="">toggle</p>
+     <div class="ms-self mt4">
+      <p data-bs-toggle="offcanvas" data-bs-target="#menu" class="fas fa-bars fs8 opacity75 hover-fade"></p>
 
-      <div class="offcanvas offcanvas-end left0 right0 w100 w-inherit top0" id="menu">
-        <div class="navbar-nav">
-          <div class="nav-item">
-            Browse recipes
+      <div class="offcanvas offcanvas-end left0 right0 w100 w-inherit top0 left50-sm left70-md flex px3 px5-sm" id="menu">
+        <!--offcanvas head-->
+       <div class="flex1 w50-sm w30-md">
+        <div class="w100">
+         <div class="offcanvas-header flex w100 gap3 bb">
+          <div class="w90 relative">
+           <input type="text" name="" value="" class=" form br2 form-orange pe9 w100 fs2">
+           <i class="bi bi-search absolute bottom0 top0 right10px m1 mt2 hover-fade"></i>
           </div>
+           <i class="bi bi-x-lg fs7 txt-bold ms-self opacity75 me2-sm hover-fade ms10" data-bs-dismiss="offcanvas"></i>
+         </div>
+
+         <!--offcanvas-body-->
+         <div class="offcanvas-body">
+          <div class="navbar-nav">
+           <div class="nav-item flex gap3 items-center">
+            <i class="bi bi-search"></i>
+            <span>Browse recipes</span>
+           </div>
+          </div>
+         </div>
         </div>
+       </div>
+
       </div>
      </div>
     </div>
