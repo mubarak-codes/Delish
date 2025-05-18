@@ -7,5 +7,12 @@ export const routes: Routes = [
       return import('./pages/home/home.component')
       .then(m=>m.HomeComponent)
     }
+  },
+  {
+    path: "favorites",
+    loadComponent: ()=>{
+      return import('./pages/favorites/favorites.component')
+      .then(m=>m.FavoritesComponent)
+    }
   }
 ];
