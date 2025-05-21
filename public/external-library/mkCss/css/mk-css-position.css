@@ -1,4 +1,22 @@
-.relative{position:relative}.absolute{position:absolute}.fixed{position : fixed}  .static{position:static}
+.relative{position:relative}.absolute{position:absolute}.fixed{position : fixed}  .static{position:static} .sticky{position: sticky;} .overflow-y-auto{overflow-y: auto}
+
+
+@media (min-width: 580px) {
+  .relative-sm{position:relative}.absolute-sm{position:absolute}.fixed-sm{position : fixed}  .static-sm{position:static} .sticky-sm{position: sticky;}
+}
+@media (min-width: 780px) {
+  .relative-md{position:relative}.absolute-md{position:absolute}.fixed-md{position : fixed}  .static-md{position:static}.sticky-md{position: sticky;}
+
+
+}
+@media (min-width: 990px) {
+  .relative-lg{position:relative}.absolute-lg{position:absolute}.fixed-lg{position : fixed}  .static-lg{position:static}.sticky-lg{position: sticky;}
+
+
+}
+
+
+
 
 
 .top0{top:0}.top10px{top:10px}.top20px{top:20px}.top30px{top:30px}.top40px{top:40px}.top50px{top:50px}.top60px{top:60px}.top70px{top:70px}.top80px{top:80px}.top90px{top:90px}.top100px{top:100px}.-top10px{top:-10px}.-top20px{top:-20px}.-top30px{top:-30px}.-top40px{top:-40px}.-top50px{top:-50px}.top10{top:10%}.top25{top:25%}.top50{top:50%}.top75{top:75%}.top100{top:100%}

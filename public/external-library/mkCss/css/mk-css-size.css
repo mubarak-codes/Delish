@@ -27,9 +27,11 @@
 
 
 
-.h10{height:10%}.h20{height:20%}.h30{height:30%}.h40{height:40%}.h50{height :50%}.h60{height:60%}.h70{height:70%}.h80{height:80%}.h90{height:90%}.h100{height :100%}.h25vh{height:25vh}.h50vh{height:50vh}.h75vh{height:75vh}.h100vh{height:100vh}
+.h10{height:10%}.h20{height:20%}.h30{height:30%}.h40{height:40%}.h50{height :50%}.h60{height:60%}.h70{height:70%}.h80{height:80% !important}.h90{height:90% !important}.h100{height :100%}.h25vh{height:25vh}.h50vh{height:50vh}.h75vh{height:75vh !important}.h100vh{height:100vh}
 
 .h50px{height:50px} .h75px{height: 75px !important;} .h100px{height:100px}.h150px{height:150px}.h200px{height:200px}.h250px{height:250px}.h300px{height:300px}.h350px{height:350px}.h400px{height:400px}.h450px{height:450px}.h500px{height:500px}.h550px{height:550px}.h600px{height:600px}
+
+.mh10{max-height: 10%;}
 
 
 @media(min-width:580px){.h10-sm{height:10%}.h20-sm{height:20%}.h25-sm{height:25%}.h30-sm{height:30%}.h40-sm{height:40%}.h50-sm{height:50%}.h60-sm{height:60%}.h70-sm{height:70%}.h75-sm{height:75%}.h80-sm{height:80%}.h90-sm{height:90%}.h100-sm{height:100%}.h25vh-sm{height:25vh}.h50vh-sm{height:50vh}.h75vh-sm{height:75vh}.h100vh-sm{height:100vh}

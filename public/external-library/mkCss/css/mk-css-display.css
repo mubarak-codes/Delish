@@ -1,4 +1,4 @@
-.inline{display:inline} .inline-block{display:inline-block} .block{display:block} .none{display:none} .inline-flex{display:inline-flex}
+.inline{display:inline !important} .inline-block{display:inline-block} .block{display:block} .none{display:none !important} .inline-flex{display:inline-flex}
 
 .justify-self-center{justify-self:center}
 
@@ -16,7 +16,7 @@
 }
 
 @media  (min-width: 780px) {
-  .inline-md{display:inline} .inline-block-md{display:inline-block} .block-md{display:block} .none-md{display:none} .inline-flex-md{display:inline-flex}
+  .inline-md{display:inline} .inline-block-md{display:inline-block} .block-md{display:block !important} .none-md{display:none !important} .inline-flex-md{display:inline-flex}
 
 .justify-self-center-md{justify-self:center}
 
@@ -38,11 +38,11 @@
 
 
 
-.d-grid{display:grid}.gr{grid-template-columns:1fr}.gr2{grid-template-columns:1fr 1fr}.gr3{grid-template-columns:1fr 1fr 1fr}.gr4{grid-template-columns:1fr 1fr 1fr 1fr}.gr5{grid-template-columns:1fr 1fr 1fr 1fr 1fr}.gr6{grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr}.gr-auto{grid-auto-columns:auto;grid-auto-flow:column;overflow:hidden;}
+.d-grid{display:grid !important}.gr{grid-template-columns:1fr}.gr2{grid-template-columns:1fr 1fr}.gr3{grid-template-columns:1fr 1fr 1fr}.gr4{grid-template-columns:1fr 1fr 1fr 1fr}.gr5{grid-template-columns:1fr 1fr 1fr 1fr 1fr}.gr6{grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr}.gr-auto{grid-auto-columns:auto;grid-auto-flow:column;overflow:hidden;}
 
 @media(min-width:580px){.d-grid-sm{display:grid}.gr-sm{grid-template-columns:1fr}.gr2-sm{grid-template-columns:1fr 1fr}.gr3-sm{grid-template-columns:1fr 1fr 1fr}.gr4-sm{grid-template-columns:1fr 1fr 1fr 1fr}.gr5-sm{grid-template-columns:1fr 1fr 1fr 1fr 1fr}.gr6-sm{grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr}.gr-auto-sm{grid-auto-columns:auto;grid-auto-flow:column;overflow:hidden;}}
 
-@media(min-width:780px){.d-grid-md{display:grid}.gr-md{grid-template-columns:1fr}.gr2-md{grid-template-columns:1fr 1fr}.gr3-md{grid-template-columns:1fr 1fr 1fr}.gr4-md{grid-template-columns:1fr 1fr 1fr 1fr}.gr5-md{grid-template-columns:1fr 1fr 1fr 1fr 1fr}.gr6-md{grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr}.gr-auto-md{grid-auto-columns:auto;grid-auto-flow:column;overflow:hidden;}}
+@media(min-width:780px){.d-grid-md{display:grid !important}.gr-md{grid-template-columns:1fr !important}.gr2-md{grid-template-columns:1fr 1fr}.gr3-md{grid-template-columns:1fr 1fr 1fr}.gr4-md{grid-template-columns:1fr 1fr 1fr 1fr}.gr5-md{grid-template-columns:1fr 1fr 1fr 1fr 1fr}.gr6-md{grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr}.gr-auto-md{grid-auto-columns:auto;grid-auto-flow:column;overflow:hidden;}}
 .flex-row-reverse{flex-direction:row-reverse}
 
 @media(min-width:990px) {.d-grid-lg{display:grid}.gr-lg{grid-template-columns:1fr}.gr2-lg{grid-template-columns:1fr 1fr}.gr3-lg{grid-template-columns:1fr 1fr 1fr}.gr4-lg{grid-template-columns:1fr 1fr 1fr 1fr}.gr5-lg{grid-template-columns:1fr 1fr 1fr 1fr 1fr}.gr6-lg{grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr}.gr-auto-lg{grid-auto-columns:auto;grid-auto-flow:column;overflow:hidden;}}
@@ -53,7 +53,7 @@
 
 
 
-.flex{display:flex}.d-col{flex-direction: column;}.d-row{flex-direction: row;}.d-col-reverse{flex-direction : column-reverse}.d-row-reverse{flex-direction: row-reverse}
+.flex{display:flex }.d-col{flex-direction: column !important}.d-row{flex-direction: row !important}.d-col-reverse{flex-direction : column-reverse !important}.d-row-reverse{flex-direction: row-reverse !important}
 .content-center{justify-content: center ;}.content-start{justify-content: start;}.content-end{justify-content: end;}.content-between{justify-content: space-between;}.content-around{justify-content: space-around;}.content-evenly{justify-content: space-evenly;}.flex1{flex:1}.flex2{flex:2}.flex3{flex:3}.flex4{flex:4}.flex5{flex:5}
 .items-center{align-items: center ;}.items-start{align-items: start;}.items-end{align-items: end;}.items-between{align-items: space-between;}.items-around{align-items: space-around;}.items-evenly{align-items: space-evenly;}.items-stretch{align-items: stretch ;}
 .self-end{justify-self: end}
