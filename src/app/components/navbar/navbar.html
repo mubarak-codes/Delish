@@ -8,7 +8,7 @@
      <div class="ms-self mt4">
       <p data-bs-toggle="offcanvas" data-bs-target="#menu" class="fas fa-bars fs8 opacity75 hover-fade"></p>
 
-      <div class="offcanvas offcanvas-end left0 right0 w100 w-inherit top0 left50-sm left70-md flex px3 px5-sm" id="menu">
+      <div class="offcanvas offcanvas-end left0 right0 w100 w-inherit top0 left50-sm left70-md flex px3" id="menu">
         <!--offcanvas head-->
        <div class="flex1 w50-sm w30-md">
         <div class="w100">
@@ -22,11 +22,24 @@
 
          <!--offcanvas-body-->
          <div class="offcanvas-body">
-          <div class="navbar-nav">
-           <div routerLink="/favorites" class="nav-item flex gap3 items-center hover-fade">
-            <i class="bi bi-search"></i>
+          <div class="navbar-nav flex d-col gap3 py4">
+           <!--favorites-->
+           <a href="/favorites" class="nav-item flex gap3 items-center hover-fade link-inherit">
+            <i class="bi bi-star"></i>
             <span>Favorites</span>
-           </div>
+           </a>
+           <a href="/add-recipe" class="nav-item flex gap3 items-center hover-fade link-inherit">
+            <i class="bi bi-plus-circle"></i>
+            <span>Add Recipe</span>
+                  </a>
+           <a href="/about" class="nav-item flex gap3 items-center hover-fade link-inherit">
+            <i class="far fa-address-card"></i>
+            <span>About</span>
+           </a>
+           <a href="/help" class="nav-item flex gap3 items-center hover-fade link-inherit">
+            <i class="bi bi-question-circle"></i>
+            <span>Help & Support</span>
+           </a>
           </div>
          </div>
         </div>
