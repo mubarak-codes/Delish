@@ -14,5 +14,12 @@ export const routes: Routes = [
       return import('./pages/favorites/favorites.component')
       .then(m=>m.FavoritesComponent)
     }
+  },
+  {
+    path: "add-recipe",
+    loadComponent: ()=>{
+      return import('./pages/add/add.component')
+      .then(m=>m.AddComponent)
+    }
   }
 ];
