@@ -21,5 +21,19 @@ export const routes: Routes = [
       return import('./pages/add/add.component')
       .then(m=>m.AddComponent)
     }
+  },
+  {
+    path: "about",
+    loadComponent: ()=>{
+      return import('./pages/about/about.component')
+      .then(m=>m.AboutComponent)
+    }
+  },
+  {
+    path: "help",
+    loadComponent: ()=>{
+      return import('./pages/help/help.component')
+      .then(m=>m.HelpComponent)
+    }
   }
 ];
